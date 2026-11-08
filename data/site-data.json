@@ -1,0 +1,1968 @@
+{
+ "version": 1,
+ "defaultLang": "en",
+ "passwordHash": "5e0daaef248fb7bebdc8fcbcda707095d59cdcae323e84d7eb0ac6d6040c4de2",
+ "ui": {
+  "en": {
+   "nav": {
+    "home": "Home",
+    "paint": "Paint",
+    "exhibition": "Exhibitions & Projects",
+    "graphic": "Graphic & Illustration",
+    "illustration": "",
+    "objects": "Objects",
+    "collaborations": "",
+    "sound": "Non Verbal Art",
+    "performance": "",
+    "cv": "CV",
+    "contacts": "Contact",
+    "about": "About"
+   },
+   "menu": "Menu",
+   "close": "Close",
+   "scroll": "scroll",
+   "works": "works",
+   "work": "work",
+   "process": "process",
+   "technique": "technique",
+   "year": "year",
+   "untitled": "Untitled",
+   "prevSection": "previous section",
+   "nextSection": "next section",
+   "backToWorks": "back to sections",
+   "reservedPlate": "photo and the artist's statement — to be added",
+   "diamondStatement": "A statement about the indestructibility of the soul and the value of creating beauty — the author's exact wording will be added together with the photo of the work.",
+   "archive": "from the archive",
+   "cityLabel": "city",
+   "emailLabel": "email",
+   "instagramLabel": "instagram",
+   "rights": "All rights reserved.",
+   "artistLogin": "Artist login",
+   "watchVideo": "watch a documentary video of the performance",
+   "madeWithSupport": "Made with support",
+   "credit": "Video registration: Kylie Sheller /USA/",
+   "collaborationWith": "collaboration with",
+   "soundNote": "click here and the melody will sound",
+   "soundNoteAdmin": "SoundCloud embed — insert the track link in the admin panel",
+   "openingSupport": "The opening was supported by performers from the international community LOBOS led by the close Estonian friend Joonas Nickholm.",
+   "statementLabel": "statement",
+   "portfolioLabel": "portfolio",
+   "cvTitle": "CV",
+   "admin": {
+    "loginTitle": "Artist login",
+    "password": "Password",
+    "enter": "Enter",
+    "wrongPassword": "Wrong password",
+    "logout": "Log out",
+    "viewSite": "View site",
+    "hint": "Demo access: tilda-2026 — change it in Settings.",
+    "tabs": {
+     "sections": "Sections & galleries",
+     "home": "Home page",
+     "cv": "CV",
+     "contacts": "Contacts",
+     "settings": "Settings"
+    },
+    "sectionsIntro": "Create, edit and delete sections and galleries. Upload and arrange media. All texts in both languages.",
+    "addSection": "Add section",
+    "sectionTitle": "Section title",
+    "sectionSubtitle": "Subtitle",
+    "slug": "address (latin)",
+    "delete": "Delete",
+    "confirmDelete": "Delete permanently? This cannot be undone.",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "label": "Label shown in the menu",
+    "lead": "Lead line",
+    "intro": "Intro paragraphs",
+    "addParagraph": "Add paragraph",
+    "blocks": "Blocks on the page",
+    "addWorksBlock": "Add works block",
+    "addPhotosBlock": "Add photos block",
+    "addTextBlock": "Add text block",
+    "addLinksBlock": "Add links block",
+    "blockTitle": "Block title",
+    "blockText": "Block text",
+    "works": "Works",
+    "photos": "Photos",
+    "addWork": "Add work",
+    "uploadImages": "Upload images",
+    "workTitle": "Work title",
+    "workTechnique": "Technique",
+    "workYear": "Year",
+    "workDescription": "Description",
+    "setCover": "Set as section cover",
+    "isCover": "cover",
+    "removeImage": "Remove image",
+    "homeHero": "Hero",
+    "heroName": "Name",
+    "heroRole": "Role line",
+    "heroAbout": "Second line",
+    "heroPull": "Short quote",
+    "statementParas": "Manifesto paragraphs",
+    "cards": "Portfolio cards",
+    "cardTitle": "Card title",
+    "cardDesc": "Card text",
+    "cardSection": "Links to section",
+    "archive": "Archive photos",
+    "cvGroups": "CV groups",
+    "addGroup": "Add group",
+    "groupTitle": "Group title",
+    "addItem": "Add entry",
+    "itemYear": "Year",
+    "itemPlace": "Place",
+    "itemWhat": "What",
+    "itemDetail": "Detail",
+    "contactsCity": "City",
+    "contactsEmail": "Email",
+    "contactsInstagram": "Instagram handle",
+    "contactsInstagramUrl": "Instagram URL",
+    "settingsPassword": "Change password",
+    "newPassword": "New password",
+    "passwordChanged": "Password changed",
+    "export": "Export data (JSON)",
+    "import": "Import data (JSON)",
+    "reset": "Reset to initial content",
+    "confirmReset": "Reset all content and uploads to the initial state?",
+    "saved": "Saved",
+    "storage": "Storage used",
+    "storageWarning": "Storage is almost full — export a backup and remove old uploads.",
+    "importBad": "Could not read this file",
+    "importOk": "Data imported",
+    "uploadTooBig": "Image is too large for demo storage (limit ~4 MB total) — use files under 300 KB or wait for the production version.",
+    "langFields": "Fill in both languages — English is shown by default, Ukrainian after switching.",
+    "save": "Save"
+   },
+   "aboutBrief": "A Ukrainian artist working in paint, graphics, sculpture and non-verbal art; recently exploring animation. She studied at the Kyiv Children's Academy of Arts and an art college, and joined the Loovlinnak residency in Estonia. Displaced by the war in 2022, she created the 'is this reality?' series in Estonia and showed it at the art museum in Vinnistu. She has collaborated with musician Andriy Kovalevskiy (non-verbal projects) and the Lenovo brand, and in 2019 the Ukrainian edition of the novel 'Diler reality' was published with her book illustrations.",
+   "earlyLabel": "Early works",
+   "earlyNote": "School years: Kyiv Children's Academy of Art, competitions and first series (2014–2016).",
+   "contactsLabel": "Contacts"
+  },
+  "uk": {
+   "nav": {
+    "home": "Головна",
+    "paint": "Фарба",
+    "exhibition": "Експозиції та проєкти",
+    "graphic": "Графіка та ілюстрація",
+    "illustration": "",
+    "objects": "Скульптура",
+    "collaborations": "",
+    "sound": "Non Verbal Art",
+    "performance": "",
+    "cv": "Резюме",
+    "contacts": "Контакти",
+    "about": "Про художницю"
+   },
+   "menu": "Меню",
+   "close": "Закрити",
+   "scroll": "гортати",
+   "works": "робіт",
+   "work": "робота",
+   "process": "процес",
+   "technique": "техніка",
+   "year": "рік",
+   "untitled": "Без назви",
+   "prevSection": "попередній розділ",
+   "nextSection": "наступний розділ",
+   "backToWorks": "до розділів",
+   "reservedPlate": "фото та твердження авторки — буде додано",
+   "diamondStatement": "Твердження про незнищенність душі й цінність творення краси — точне авторське формулювання буде додано разом із фото роботи.",
+   "archive": "з архіву",
+   "cityLabel": "місто",
+   "emailLabel": "пошта",
+   "instagramLabel": "інстаграм",
+   "rights": "Усі права захищено.",
+   "artistLogin": "Вхід для авторки",
+   "watchVideo": "переглянути документальне відео перформансу",
+   "madeWithSupport": "Створено за підтримки",
+   "credit": "Реєстрація відео: Кайлі Шеллер /США/",
+   "collaborationWith": "співпраця з",
+   "soundNote": "клацніть тут, щоб зазвучала мелодія",
+   "soundNoteAdmin": "SoundCloud-плеєр — вставте посилання на трек в адмін-панелі",
+   "openingSupport": "Відкриття виставки відбулося за підтримки виконавців з міжнародної спільноти LOBOS на чолі з естонським близьким другом Йоонасом НІКГОЛЬМОМ.",
+   "statementLabel": "твердження",
+   "portfolioLabel": "портфоліо",
+   "cvTitle": "Резюме",
+   "admin": {
+    "loginTitle": "Вхід для авторки",
+    "password": "Пароль",
+    "enter": "Увійти",
+    "wrongPassword": "Невірний пароль",
+    "logout": "Вийти",
+    "viewSite": "Переглянути сайт",
+    "hint": "Демо-доступ: tilda-2026 — змініть його у Налаштуваннях.",
+    "tabs": {
+     "sections": "Розділи та галереї",
+     "home": "Головна",
+     "cv": "Резюме",
+     "contacts": "Контакти",
+     "settings": "Налаштування"
+    },
+    "sectionsIntro": "Створюйте, редагуйте та видаляйте розділи й галереї. Завантажуйте й упорядковуйте медіа. Усі тексти — обома мовами.",
+    "addSection": "Додати розділ",
+    "sectionTitle": "Назва розділу",
+    "sectionSubtitle": "Підзаголовок",
+    "slug": "адреса (латиницею)",
+    "delete": "Видалити",
+    "confirmDelete": "Видалити остаточно? Дію не можна скасувати.",
+    "moveUp": "Вгору",
+    "moveDown": "Вниз",
+    "label": "Назва в меню",
+    "lead": "Виголовний рядок",
+    "intro": "Вступні абзаци",
+    "addParagraph": "Додати абзац",
+    "blocks": "Блоки на сторінці",
+    "addWorksBlock": "Додати блок робіт",
+    "addPhotosBlock": "Додати блок фото",
+    "addTextBlock": "Додати текстовий блок",
+    "addLinksBlock": "Додати блок посилань",
+    "blockTitle": "Заголовок блоку",
+    "blockText": "Текст блоку",
+    "works": "Роботи",
+    "photos": "Фото",
+    "addWork": "Додати роботу",
+    "uploadImages": "Завантажити зображення",
+    "workTitle": "Назва роботи",
+    "workTechnique": "Техніка",
+    "workYear": "Рік",
+    "workDescription": "Опис",
+    "setCover": "Зробити обкладинкою розділу",
+    "isCover": "обкладинка",
+    "removeImage": "Прибрати зображення",
+    "homeHero": "Шапка",
+    "heroName": "Ім'я",
+    "heroRole": "Роль",
+    "heroAbout": "Другий рядок",
+    "heroPull": "Коротка цитата",
+    "statementParas": "Абзаци маніфесту",
+    "cards": "Картки портфоліо",
+    "cardTitle": "Назва картки",
+    "cardDesc": "Текст картки",
+    "cardSection": "Веде до розділу",
+    "archive": "Архівні фото",
+    "cvGroups": "Розділи резюме",
+    "addGroup": "Додати розділ",
+    "groupTitle": "Назва розділу",
+    "addItem": "Додати запис",
+    "itemYear": "Рік",
+    "itemPlace": "Місце",
+    "itemWhat": "Що",
+    "itemDetail": "Деталь",
+    "contactsCity": "Місто",
+    "contactsEmail": "Пошта",
+    "contactsInstagram": "Хендл інстаграму",
+    "contactsInstagramUrl": "URL інстаграму",
+    "settingsPassword": "Змінити пароль",
+    "newPassword": "Новий пароль",
+    "passwordChanged": "Пароль змінено",
+    "export": "Експортувати дані (JSON)",
+    "import": "Імпортувати дані (JSON)",
+    "reset": "Скинути до початкового стану",
+    "confirmReset": "Скинути весь контент і завантаження до початкового стану?",
+    "saved": "Збережено",
+    "storage": "Займає місця",
+    "storageWarning": "Сховище майже повне — зробіть експорт-резервну копію та видаліть старі завантаження.",
+    "importBad": "Не вдалося прочитати файл",
+    "importOk": "Дані імпортовано",
+    "uploadTooBig": "Зображення завелике для демо-сховища (ліміт ~4 МБ) — використовуйте файли до 300 КБ або дочекайтеся продуктової версії.",
+    "langFields": "Заповнюйте обидві мови — англійська показується за замовчуванням, українська після перемикання.",
+    "save": "Зберегти"
+   },
+   "aboutBrief": "Українська художниця. Працює у фарбі, графіці, скульптурі та нон-вербальному мистецтві, останнім часом опановує анімацію. Навчалася у Київській дитячій академії мистецтв та художньому коледжі, стажувалася в естонській резиденції Loovlinnak. У 2022 році, вимушено переселившись через війну, створила в Естонії серію «це реальність?» і показала її в Художньому музеї Війністу. Співпрацювала з музикантом Андрієм Ковалевським (нон-вербальні проєкти), брендом Lenovo, а 2019 року ви­йшло українське видання роману «Дилер реальності» з її книжковими ілюстраціями.",
+   "earlyLabel": "Ранні роботи",
+   "earlyNote": "Шкільні роки: Київська дитяча академія мистецтв, конкурси та перші серії (2014–2016).",
+   "contactsLabel": "Контакти"
+  }
+ },
+ "site": {
+  "brand": {
+   "en": "Mattilda Zvolinska",
+   "uk": "Матильда Зволінська"
+  },
+  "hero": {
+   "name": {
+    "en": "Mattilda Zvolinska",
+    "uk": "Матильда Зволінська"
+   },
+   "role": {
+    "en": "a painter, graphic artist and sculptor",
+    "uk": "художниця: живопис, графіка, скульптура"
+   },
+   "about": {
+    "en": "For now, mastering a new technic - animation, and also managing two projects with object art.",
+    "uk": "Зараз опановую нову техніку — анімацію, а також веду два проєкти з об'єктного мистецтва."
+   },
+   "pull": {
+    "en": "Sometimes may be good, sometimes maybe war",
+    "uk": "Іноді може бути добре, іноді — може бути війна"
+   },
+   "image": "830da7_3650ffe733f3431d9d881fbfc29aecf9~mv2.jpg"
+  },
+  "statement": [
+   {
+    "en": "\"Sometimes may be good, sometimes maybe war\", but creativity cannot leave us even in such times. and works biologically like life self-expression. The way of understanding the world's senses and self-awareness.",
+    "uk": "«Іноді може бути добре, іноді — може бути війна», але творчість не може покинути нас навіть у такі часи; і працює біологічно, як самовираження життя. Це спосіб розуміння смислів світу й усвідомлення себе."
+   },
+   {
+    "en": "When art is a code of the broadcast — your CODE-reactor instantly has an appropriate reaction in the form of every movement of your stylistic currents to the endless variations of manifestations of our world.",
+    "uk": "Коли мистецтво є кодом трансляції — твій КОД-реактор миттєво дає відповідну реакцію у формі кожного руху твоїх стилістичних течій на нескінченні варіації проявів нашого світу."
+   }
+  ],
+  "cards": [
+   {
+    "image": "830da7_3650ffe733f3431d9d881fbfc29aecf9~mv2.jpg",
+    "title": {
+     "en": "paints",
+     "uk": "фарби"
+    },
+    "desc": {
+     "en": "Slovenian - Estonian series of canvases created during the last few life longest months as forced refugee due to the War in Central Europe (Ukraine). The reality of Cultural genocide threat instantly forced me to emotional maturity and personal responsibility, in addition creativity boosted for survival purpose. That changes opened possibility to quickly absorb the art masters experience in several European collaborations and made brave experiments with materials. Challenges accepted, next passing to a new level of creativity and uses of art techniques combinations. Some of artwork reminiscent of unreal cosmic landscapes, but all of them are an artefacts of actual happenings. Paintings build some sort tape events during the interventions period.",
+     "uk": "Словенсько-естонська серія полотен, створена протягом найдовших останніх місяців мого життя в статусі вимушеної біженки через війну в Центральній Європі (Україні). Реальність загрози культурному геноциду миттєво змусила мене до емоційної зрілості й особистої відповідальності, а творчість отримала імпульс для виживання. Ці зміни відкрили можливість швидко засвоювати досвід майстрів у кількох європейських колабораціях і сміливо експериментувати з матеріалами. Виклики прийнято — перехід на новий рівень творчості та поєднання художніх технік. Деякі роботи нагадують нереальні космічні пейзажі, але всі вони — артефакти реальних подій. Картини будують своєрідну стрічку подій воєнного періоду."
+    },
+    "section": "paint"
+   },
+   {
+    "image": "751718_72145e6aa8944df2b4af36fc29269dc1~mv2.jpg",
+    "title": {
+     "en": "graphics",
+     "uk": "графіка"
+    },
+    "desc": {
+     "en": "Graphics became a technique for accurately reflecting the diversity and populousness of my inner universe. Placing many stories within the limited space is a painstaking process 1-2 weeks for one piece. The multi-layered, sometimes non-overlapping scenes often made up complex but not-so-obvious storylines. Kind of artwork, as usual, created a wow effect - new characters were found time after time when reviewing the artwork. Of the unusual technique, semantic content and multiple layers, my paints have won prizes in local and international competitions, including a worldwide painting competition in Japan.",
+     "uk": "Графіка стала технікою точного відображення різноманіття й населеності мого внутрішнього всесвіту. Розмістити багато історій в обмеженому просторі — кропіткий процес: 1–2 тижні на одну роботу. Багатошарові, іноді неперетинні сцени складали складні й неочевидні сюжетні лінії. Такі роботи зазвичай створювали «вау-ефект» — нових персонажів знаходили знову і знову при перегляді. Завдяки незвичній техніці, смисловому наповненню та багатьом шарам мої картини отримували нагороди на місцевих і міжнародних конкурсах, зокрема на всесвітньому конкурсі живопису в Японії."
+    },
+    "section": "graphic"
+   },
+   {
+    "image": "830da7_06bf07d0352f4bfbbeec8180814903f1~mv2.jpg",
+    "title": {
+     "en": "objects",
+     "uk": "скульптура"
+    },
+    "desc": {
+     "en": "",
+     "uk": ""
+    },
+    "section": "objects"
+   },
+   {
+    "section": "exhibition",
+    "image": "830da7_f41aab1d9cfe4ee3bf83b1b6995b1ca6~mv2.jpg",
+    "title": {
+     "uk": "експозиції",
+     "en": "exhibitions"
+    },
+    "desc": {
+     "uk": "Виставки, перформанс і спільні проєкти.",
+     "en": "Exhibitions, performance and joint projects."
+    }
+   }
+  ],
+  "archive": {
+   "photos": [
+    "830da7_95bcc7eceb0a4cdfb133158087212c37~mv2.jpg",
+    "830da7_91b1a616fc324a8abda3daccb485ec48~mv2.jpg",
+    "830da7_7de08a9f4f40449f939f057c840fc5c8~mv2.jpeg"
+   ]
+  }
+ },
+ "sections": [
+  {
+   "slug": "kyiv2025",
+   "label": {
+    "en": "Kyiv 2025",
+    "uk": "Київ 2025"
+   },
+   "subtitle": {
+    "en": "latest works",
+    "uk": "останні роботи"
+   },
+   "lead": {
+    "en": "",
+    "uk": ""
+   },
+   "cover": "kyiv2025-01.jpg",
+   "intro": [
+    {
+     "en": "New works made in Kyiv. Titles and descriptions will be added by the artist.",
+     "uk": "Нові роботи, створені в Києві. Назви та описи додасть художниця."
+    }
+   ],
+   "blocks": [
+    {
+     "kind": "works",
+     "title": {
+      "en": "",
+      "uk": ""
+     },
+     "works": [
+      {
+       "image": "kyiv2025-01.jpg",
+       "title": {
+        "en": "",
+        "uk": ""
+       },
+       "technique": {
+        "en": "",
+        "uk": ""
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "kyiv2025-02.jpg",
+       "title": {
+        "en": "",
+        "uk": ""
+       },
+       "technique": {
+        "en": "",
+        "uk": ""
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "kyiv2025-03.jpg",
+       "title": {
+        "en": "",
+        "uk": ""
+       },
+       "technique": {
+        "en": "",
+        "uk": ""
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "kyiv2025-04.jpg",
+       "title": {
+        "en": "",
+        "uk": ""
+       },
+       "technique": {
+        "en": "",
+        "uk": ""
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "kyiv2025-05.jpg",
+       "title": {
+        "en": "",
+        "uk": ""
+       },
+       "technique": {
+        "en": "",
+        "uk": ""
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "kyiv2025-06.jpg",
+       "title": {
+        "en": "",
+        "uk": ""
+       },
+       "technique": {
+        "en": "",
+        "uk": ""
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "kyiv2025-07.jpg",
+       "title": {
+        "en": "",
+        "uk": ""
+       },
+       "technique": {
+        "en": "",
+        "uk": ""
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "paint",
+   "label": {
+    "en": "Paint",
+    "uk": "Фарба"
+   },
+   "subtitle": {
+    "en": "beginning of the great war",
+    "uk": "період війни"
+   },
+   "lead": {
+    "en": "the mixed drawing technique",
+    "uk": "змішана техніка малювання період війни"
+   },
+   "cover": "830da7_3650ffe733f3431d9d881fbfc29aecf9~mv2.jpg",
+   "intro": [
+    {
+     "en": "The period started with the flavor and colors of war.",
+     "uk": "Період, що почався зі смаку й кольорів війни."
+    },
+    {
+     "en": "In contemporary humanistic experience, there weren't, no rational answers, tools, or ready-made solutions to counter barbarism. Appeal to the collective unconscious, historical memory, and the human genome - change personal identification and behavior patterns, in all the diversity of the national community. A total change in the usual \"landscape\" and with a brain new reality - your inner code-reactor reproduces new variations of the transmission of information.",
+     "uk": "У сучасному гуманістичному досвіді не було ані раціональних відповідей, ані інструментів, ані готових рішень проти варварства. Звернення до колективного несвідомого, історичної пам'яті та людського геному змінює особисту ідентифікацію і патерни поведінки в усьому різноманітті національної спільноти. Повна зміна звичного «пейзажу» й нова для мозку реальність — твій внутрішній код-реактор відтворює нові варіації передачі інформації."
+    }
+   ],
+   "blocks": [
+    {
+     "kind": "works",
+     "title": {
+      "en": "",
+      "uk": ""
+     },
+     "works": [
+      {
+       "image": "830da7_3650ffe733f3431d9d881fbfc29aecf9~mv2.jpg",
+       "title": {
+        "en": "even against the Black Sea",
+        "uk": "навіть проти Чорного моря"
+       },
+       "technique": {
+        "en": "acrylic, oil paint, cardboard",
+        "uk": "акрил, олійна фарба, картон"
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_5450dcc0d50a4d25ac7694d65e35a653~mv2.jpg",
+       "title": {
+        "en": "Loud loudness",
+        "uk": "Гучна гучність"
+       },
+       "technique": {
+        "en": "acrylic, whitewash, canvas",
+        "uk": "акрил, побілка, полотно"
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_a82ee89c3b4c4cc198df99b3457e9026~mv2.jpg",
+       "title": {
+        "en": "too much oxygen",
+        "uk": "забагато кисню"
+       },
+       "technique": {
+        "en": "30×40, acrylic, canvas",
+        "uk": "30×40, акрил, полотно"
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_04286df6bf3c4291a79e4196d56b657a~mv2.jpg",
+       "title": {
+        "en": "see, but I can't believe it, stop it",
+        "uk": "бачу, але не можу повірити — припини"
+       },
+       "technique": {
+        "en": "100×40, acrylic, oil shallots, canvas",
+        "uk": "100×40, акрил, олія, полотно"
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_ded10100ce3e4e2da36f8da7268aa566~mv2.jpg",
+       "title": {
+        "en": "it's not just Bucha",
+        "uk": "це не тільки Буча"
+       },
+       "technique": {
+        "en": "57×110, acrylic, marker, canvas",
+        "uk": "57×110, акрил, маркер, полотно"
+       },
+       "year": "2022",
+       "description": {
+        "en": "The canvas shows the world of a happy and bright childhood together when killed and raped children by rusian soldiers never again will see a spring sky.",
+        "uk": "Полотно показує світ щасливого та яскравого спільного дитинства, коли вбиті та згвалтовані російськими солдатами діти ніколи більше не побачать весняного неба."
+       }
+      },
+      {
+       "image": "scan-artishok",
+       "title": {
+        "en": "artichoke",
+        "uk": "артишок"
+       },
+       "technique": {
+        "en": "watercolor, pastel (provisional)",
+        "uk": "акварель, пастель (уточнити)"
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_a068005131f242dc9749d328f4124a39~mv2.jpg",
+       "title": {
+        "en": "she handled her mom, breaking himself",
+        "uk": "вона справлялася з мамою, ламаючи себе"
+       },
+       "technique": {
+        "en": "100/75, acrylic, oils, whitewashing, canvas",
+        "uk": "100/75, акрил, олія, побілка, полотно"
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_36888513d7f54e0d9212b09e9e587fa1~mv2.jpg",
+       "title": {
+        "en": "figures digging up blur contours",
+        "uk": "фігури, що викопують розмиті контури"
+       },
+       "technique": {
+        "en": "150×90, acrylic, oils, whitewashing, sunflower oil, canvas",
+        "uk": "150х90, акрил, олія, побілка, соняшникова олія, полотно"
+       },
+       "year": "2022",
+       "description": {
+        "en": "The canvas depicts a multi-colored composition, in the center of which three figures can be distinguished, digging the soil with shovels in search of people in mass brother graves. The living is already digging out the contours of the dead, innocent people who were killed while they were trying to find water or food, cross the road or cross a space on a bicycle, hide from a tank following them or an inhuman who came to someone else's house with a gun to kill and rape. Now, these are silhouettes that have been etched into our memory forever, which loved ones are so eager to bury with respect, remembering each name.",
+        "uk": "На полотні зображено різнобарвну композицію, в центрі якої можна виділити три постаті, які риють лопатами землю в пошуках людей у братських могилах. Живі вже розкопують контури загиблих, невинних людей, яких убили, коли вони шукали воду чи їжу, переходили дорогу чи перетинали простір на велосипеді, ховалися від танка, що їхав за ними, чи нелюда, який приїхав до чужий дім з рушницею вбивати і ґвалтувати. Тепер це силуети, які назавжди закарбувалися в нашій пам'яті, які близькі так прагнуть з пошаною поховати, пам'ятаючи кожне ім'я."
+       }
+      },
+      {
+       "image": "830da7_2db9f98cdc0f485ca5d93d6abcea21dc~mv2.jpg",
+       "title": {
+        "en": "our sky, mountains and fields absorb the feelings of millions ears",
+        "uk": "Наші гори, небо і поля вбирають почуття мільйонів вух"
+       },
+       "technique": {
+        "en": "140×100, acrylic, canvas",
+        "uk": "140х100, акрил, полотно"
+       },
+       "year": "2022",
+       "description": {
+        "en": "The canvas depicts four main figures - two human silhouettes and two cars with the inscription of the Russian word \"children\". The depicted people pass into a large landscape, in which you can see all the landscapes of Ukraine, a country burning in flames, suffocating with smoke. Above are the native mountains, the sky and the fields along the road, and below is the Black Sea storm, which powerfully defends itself from the actions that took place in the spring of 2022. And there is another person in blue-yellow colors and one in red-black are one whole, that feel every car with shot civilians who were just trying to save their children.",
+        "uk": "На полотні зображені чотири головні фігури - два людських силуети і дві машини з написом російською мовою «діти». Зображені люди переходять у великий пейзаж, на якому видно всі краєвиди України, країни, що горить у вогні, задихається димом. Вгорі – рідні гори, небо і поля при дорозі, а внизу – Чорноморська буря, яка потужно захищається від подій, які відбувалися навесні 2022 року. І є ще одна людина в синьо-жовтих кольорах і червоно-чорні – це одне ціле, яке відчуває кожну машину з розстріляними мирними жителями, які просто намагалися врятувати своїх дітей."
+       }
+      }
+     ]
+    },
+    {
+     "kind": "photos",
+     "title": {
+      "en": "process",
+      "uk": "процес"
+     },
+     "photos": [
+      "830da7_120c4a9e7663478ea4ef4e3a29830b40~mv2.jpg",
+      "830da7_d8477e3d78d643b38bbd2f25a418a0b3~mv2.jpg",
+      "830da7_05c4c02ed63c497f94279e15121da930~mv2.jpg",
+      "830da7_23ea2242a997427094bdbe3653fea701~mv2.jpg",
+      "830da7_8cbe93dc6b5942e883eca8a1b31cc82d~mv2.jpg",
+      "830da7_9a8e07bcf7d14101b70379bb5c5bf1f7~mv2.jpg",
+      "830da7_cf49fb45863744a5b893cd40d959190b~mv2.jpg",
+      "830da7_b561461f69b745d6b05d6ccec875a438~mv2.jpg",
+      "830da7_c0c32be0ef1f4d43a9bebc5afa25e74e~mv2.jpg",
+      "830da7_e21a0280a3894aee98eb651552e245e8~mv2.jpg",
+      "830da7_5c8dd2eaf6d54199a9080bfc3305dc7f~mv2.jpg",
+      "830da7_7b422dfd0ad14f2d892c6a11f669ca43~mv2.jpg",
+      "830da7_a93c677b012641ea81770bd0acc40f5c~mv2.jpg",
+      "830da7_c55cca8279eb49558356f06e42c5fc58~mv2.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "graphic",
+   "label": {
+    "uk": "Графіка та ілюстрація",
+    "en": "Graphic & Illustration"
+   },
+   "subtitle": {
+    "en": "graf",
+    "uk": "граф"
+   },
+   "lead": {
+    "en": "Graphic",
+    "uk": "Графіка"
+   },
+   "cover": "830da7_b0f843b414c1452dad32825e49f95d10~mv2.png",
+   "intro": [
+    {
+     "en": "It was an insider period when my relationship as a graphic artist began.",
+     "uk": "Це був період, коли почалися мої стосунки з графікою."
+    },
+    {
+     "en": "The number of worlds and creatures, that fill them with the appropriate degree of detail, could be done in the best way thanks to graphic techniques. This is a difficult process, because it contains lots of details that need to be thought up, analyzed, and passed through yourself. There is a complete immersion in the process of finding the best variant of information transmission through the symbols, this monologue does not stop, even when you are busy with something else, it practically becomes a part of your identity.",
+     "uk": "Кількість світів і створінь, що наповнюють їх із належним ступенем деталізації, найкраще втілювалася саме графічними техніками. Робота над такою графікою — складний процес, оскільки він містить багато деталей, які потрібно продумати, проаналізувати та пропустити через себе. Відбувається повне занурення в процес пошуку найкращого варіанту передачі інформації через символи. Цей монолог не припиняється, навіть коли я зайнята чимось іншим, — він практично стає частиною мене."
+    }
+   ],
+   "blocks": [
+    {
+     "kind": "works",
+     "title": {
+      "en": "",
+      "uk": ""
+     },
+     "works": [
+      {
+       "image": "830da7_e5eae0624cb1409d9bba1a6fd5f05f0a~mv2.jpg",
+       "title": {
+        "en": "from dusk till down",
+        "uk": "від сутінків до світанку"
+       },
+       "technique": {
+        "en": "",
+        "uk": ""
+       },
+       "year": "2018",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_89cc8d5661694db5ac1ab1d5b4fc09a6~mv2.png",
+       "title": {
+        "en": "the mountain spirit",
+        "uk": "дух гори"
+       },
+       "technique": {
+        "en": "diptych",
+        "uk": "диптих"
+       },
+       "year": "2017",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_2a61e00e24da4004bebd72185bd7980f~mv2.png",
+       "title": {
+        "en": "the mountain spirit",
+        "uk": "дух гори"
+       },
+       "technique": {
+        "en": "diptych",
+        "uk": "диптих"
+       },
+       "year": "2017",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_b0f843b414c1452dad32825e49f95d10~mv2.png",
+       "title": {
+        "en": "diamond soul",
+        "uk": "діамантова душа"
+       },
+       "technique": {
+        "en": "",
+        "uk": ""
+       },
+       "year": "2018",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "scan-graphic-bubble",
+       "title": {
+        "en": "",
+        "uk": ""
+       },
+       "technique": {
+        "en": "black pen, colored pencils",
+        "uk": "чорна ручка, кольорові олівці"
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "",
+       "title": {
+        "en": "The Diamond",
+        "uk": "Діамант"
+       },
+       "technique": {
+        "en": "A3, black pen",
+        "uk": "A3, чорна ручка"
+       },
+       "year": "",
+       "description": {
+        "en": "Soul is unique and eternal, like a stone! Diseases can destroy the body, but can't kill the Soul! It just develop and learn, and harden the Will. Actions and achievements reached by making world a better and kinder place, can put into the shade any physical limitations, and make from that person the \"cut diamond\" worthy public attention and self-esteem.",
+        "uk": "Душа унікальна й вічна, як камінь! Хвороби можуть руйнувати тіло, але не здатні вбити Душу! Вона лише розвивається, вчиться і гартує Волю. Вчинки та досягнення — роблячи світ кращим і добрішим — здатні затьмарити будь-які фізичні обмеження і перетворити людину на «огранований діамант», гідний уваги суспільства і самоповаги."
+       },
+       "reserved": true
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Book illustrations",
+      "uk": "Книжкові ілюстрації"
+     },
+     "paras": [
+      {
+       "en": "for the novel \"Dealer of Reality\" in the cyberpunk genre by Nicholas Dimitrov.",
+       "uk": "за роман «Ділер реальності» в жанрі кіберпанк Ніколаса Димитрова."
+      },
+      {
+       "en": "2019",
+       "uk": "2019"
+      },
+      {
+       "en": "Near future. Humanity is mired in vices and excesses. Religion has turned into fast food. The elites are addicted to a new digital drug that allows them to create and experience 《Personal Realities》. The new religion of Transreality devalues and negates all religions of the past.",
+       "uk": "Найближче майбутнє. Людство загрузло в пороках і надмірностях. Релігія перетворилася на фастфуд. Еліти залежні від нового цифрового наркотику, який дозволяє їм створювати та відчувати 《Особисту реальність》. Нова релігія Transreality знецінює та заперечує всі релігії минулого."
+      },
+      {
+       "en": "The work took place almost remotely from the author, who allowed me to interpret my part of the book exactly how I felt this.",
+       "uk": "Робота відбувалася майже віддалено від автора, який дозволив мені інтерпретувати свою частину книги саме так, як я її відчувала."
+      }
+     ]
+    },
+    {
+     "kind": "works",
+     "title": {
+      "uk": "",
+      "en": ""
+     },
+     "works": [
+      {
+       "image": "830da7_e3494c710f1a46edabe26b597781a845~mv2.jpg",
+       "title": {
+        "en": "the logo of the new religion of Transreality",
+        "uk": "логотип нової релігії Трансреальності"
+       },
+       "technique": {
+        "en": "",
+        "uk": ""
+       },
+       "year": "2019",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_19e8046c70d7487993cffc6022ba4fca~mv2.jpg",
+       "title": {
+        "en": "",
+        "uk": ""
+       },
+       "technique": {
+        "en": "",
+        "uk": ""
+       },
+       "year": "2019",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_39dfc9c3e4d04496a0cf4861fd15fdcb~mv2.jpg",
+       "title": {
+        "en": "",
+        "uk": ""
+       },
+       "technique": {
+        "en": "",
+        "uk": ""
+       },
+       "year": "2019",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_f467f292a73a43c0a6790177ca84c181~mv2.jpg",
+       "title": {
+        "en": "",
+        "uk": ""
+       },
+       "technique": {
+        "en": "",
+        "uk": ""
+       },
+       "year": "2019",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_86bb3e53d66246f895e6781cc90c39c1~mv2.jpg",
+       "title": {
+        "en": "",
+        "uk": ""
+       },
+       "technique": {
+        "en": "",
+        "uk": ""
+       },
+       "year": "2019",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_7d9b534bfc834ca3916e7c9a84d84e4b~mv2.jpg",
+       "title": {
+        "en": "",
+        "uk": ""
+       },
+       "technique": {
+        "en": "",
+        "uk": ""
+       },
+       "year": "2019",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_9b33b2a9f658466a8d1fc7621415dc8b~mv2.jpg",
+       "title": {
+        "en": "",
+        "uk": ""
+       },
+       "technique": {
+        "en": "",
+        "uk": ""
+       },
+       "year": "2019",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "book-cover-ua",
+       "title": {
+        "uk": "Обкладинка — українське видання",
+        "en": "Cover — Ukrainian edition"
+       },
+       "technique": {
+        "uk": "роман «Дилер реальності», книга",
+        "en": "the novel 'Diler reality', book"
+       },
+       "year": "2019",
+       "description": {
+        "uk": "",
+        "en": ""
+       }
+      },
+      {
+       "image": "book-cover-en",
+       "title": {
+        "uk": "Обкладинка — англійське видання",
+        "en": "Cover — English edition"
+       },
+       "technique": {
+        "uk": "«Dealer of Realities», книга",
+        "en": "'Dealer of Realities', book"
+       },
+       "year": "2019",
+       "description": {
+        "uk": "",
+        "en": ""
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "objects",
+   "label": {
+    "en": "Objects",
+    "uk": "Скульптура"
+   },
+   "subtitle": {
+    "en": "imprint",
+    "uk": "обличчя"
+   },
+   "lead": {
+    "en": "\"My pain is beautiful\"",
+    "uk": "\"My pain is beautiful\""
+   },
+   "cover": "830da7_39769e00a4cb4d7fb5a5fa3f4fa7cd29~mv2.jpg",
+   "intro": [
+    {
+     "en": "The idea of this project is to imprint in a mask, the face that was made of plaster with a plastic brain, the fact that the emotion of fear can be pretty. At the moment when I began to impose the plaster on the face of Daria Stiletska, she starts to feel the hard and multi-layered emotion of fear that wasn't just because of the process it was a much deeper and powerful fear, which was imprinted on the finished object.",
+     "uk": "Ідея цього проєкту — відбити в масці, в обличчі, зробленому з гіпсу з пластиковим мозком, той факт, що емоція страху може бути гарною. У момент, коли я почала накладати гіпс на обличчя Дарії Стилецької, вона почала відчувати важку й багатошарову емоцію страху — не лише через сам процес: це був значно глибший і потужніший страх, який відбився на готовому об'єкті."
+    }
+   ],
+   "blocks": [
+    {
+     "kind": "works",
+     "title": {
+      "en": "",
+      "uk": ""
+     },
+     "works": [
+      {
+       "image": "830da7_39769e00a4cb4d7fb5a5fa3f4fa7cd29~mv2.jpg",
+       "title": {
+        "en": "the mask",
+        "uk": "маска"
+       },
+       "technique": {
+        "en": "plaster, plastic",
+        "uk": "гіпс, пластик"
+       },
+       "year": "2022",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      }
+     ]
+    },
+    {
+     "kind": "photos",
+     "title": {
+      "en": "the mask",
+      "uk": "маска"
+     },
+     "photos": [
+      "830da7_c75ded8c479a45db932e03b9c7139409~mv2.jpg",
+      "830da7_2edb0fdc361848d1b009b81691cda66a~mv2.jpg"
+     ]
+    },
+    {
+     "kind": "photos",
+     "title": {
+      "en": "the process",
+      "uk": "процес"
+     },
+     "photos": [
+      "830da7_2046f077d3354fbba4c2663d12e75a27~mv2.jpg",
+      "830da7_a3fc0166d6bb40c38b4ef35ff18619db~mv2.jpg"
+     ]
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "2022, Estonia",
+      "uk": "2022, Естонія"
+     },
+     "paras": []
+    }
+   ]
+  },
+  {
+   "slug": "exhibition",
+   "label": {
+    "uk": "Експозиції та проєкти",
+    "en": "Exhibitions & Projects"
+   },
+   "subtitle": {
+    "en": "",
+    "uk": ""
+   },
+   "lead": {
+    "en": "is this reality?",
+    "uk": "це реальність?"
+   },
+   "cover": "830da7_f41aab1d9cfe4ee3bf83b1b6995b1ca6~mv2.jpg",
+   "intro": [
+    {
+     "en": "The Series was made in Estonia in a personal Exhibition at the private Museum of Contemporary Art Kunsty in Vinnistu, during the period of forced transmigration. I translated a tape of imprints of Ukrainian War, as a personal way to support the Ukrainian Victory.",
+     "uk": "Серія створена в Естонії в період вимушеного переселення. Відбитки подій Української війни на персональній виставці у Вінницькому музеї, як особистий спосіб підтримки української перемоги."
+    },
+    {
+     "en": "The opening was made with the collaboration of European colleagues, each with a unique qualification — a non-stop experiment with materials and techniques.",
+     "uk": "Співпраця європейських колег, де кожен має унікальну кваліфікацію — безперервний експеримент із матеріалами та техніками."
+    },
+    {
+     "en": "Every work is an artifact of actual actions of what was happening on the territory of my motherland.",
+     "uk": "Кожна робота є артефактом реальних подій, що відбуваються на території України, створеними стрічкою подій."
+    },
+    {
+     "en": "It was a two months process with non-stop experimentation with materials and techniques, non-stop processing and reflection through Collaborations with colleagues, each one has unique qualifications, and own strong background of unique culture codes.",
+     "uk": "Це був двомісячний процес безперервних експериментів з матеріалами й техніками, безупинного опрацювання та рефлексії через колаборації з колегами — кожен має унікальну кваліфікацію та власний міцний фундамент унікальних культурних кодів."
+    },
+    {
+     "en": "The informational and personal-emotional field continues and speaks through ART storytelling.",
+     "uk": "Інформаційне та особистісно-емоційне поле продовжується і промовляє через ART storytelling."
+    },
+    {
+     "en": "Have you ever doubted the reality of what is happening? Which country will be next on this front line? Does an Estonian peer ask themselves such questions? That is what this pavilion is about.",
+     "uk": "Ви коли-небудь сумнівалися в реальності того, що відбувається? Яка країна буде наступною на цьому фронті? Естонський ровесник задає їм такі запитання? Ось про що цей павільйон."
+    }
+   ],
+   "blocks": [
+    {
+     "kind": "works",
+     "title": {
+      "en": "",
+      "uk": ""
+     },
+     "works": [
+      {
+       "image": "830da7_f41aab1d9cfe4ee3bf83b1b6995b1ca6~mv2.jpg",
+       "title": {
+        "en": "And you¿",
+        "uk": "І ти"
+       },
+       "technique": {
+        "en": "118×90, acrylic, watercolor, oils, canvas",
+        "uk": "118/90, акрил, акварель, олія, полотно"
+       },
+       "year": "2022",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_aed7de340a8e4a388eed7f9abb043ba4~mv2.jpg",
+       "title": {
+        "en": "turbulence",
+        "uk": "турбулентність"
+       },
+       "technique": {
+        "en": "134×123, acrylic, oil, bowl",
+        "uk": "134x123, акрил, олія, миска"
+       },
+       "year": "2022",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_944c8f2b3e0c44eba873f43bfbc9ffaa~mv2.jpg",
+       "title": {
+        "en": "",
+        "uk": ""
+       },
+       "technique": {
+        "en": "",
+        "uk": ""
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_97ac23119b93442eb1550e039cca7200~mv2.jpg",
+       "title": {
+        "en": "fashionable chernozem",
+        "uk": "модний чорнозем"
+       },
+       "technique": {
+        "en": "acrylic, fabric",
+        "uk": "акрил, тканина"
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_0e53c855772d4a44a969880e943cb9a4~mv2.jpg",
+       "title": {
+        "en": "somewhere in there is my nest",
+        "uk": "десь там моє гніздо"
+       },
+       "technique": {
+        "en": "166×63, oil, acrylic, watercolor, canvas",
+        "uk": "166x63, олія, акрил, акварель, полотно"
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_1ddc922408d54b69972ac43025a939fc~mv2.jpg",
+       "title": {
+        "en": "Mary Virgin",
+        "uk": "Богородиця Марія"
+       },
+       "technique": {
+        "en": "plaster, plastic, watercolor",
+        "uk": "гіпс, пластика, акварель"
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_13498873be094d23900501ce082610d2~mv2.jpg",
+       "title": {
+        "en": "bleeding ears",
+        "uk": "кровоточать вуха"
+       },
+       "technique": {
+        "en": "77×70, acrylic, wood",
+        "uk": "77x70, акрил, дерево"
+       },
+       "year": "2022",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_108646c4f4f64a9da990fee8d55fbaae~mv2.jpg",
+       "title": {
+        "en": "2811",
+        "uk": "2811"
+       },
+       "technique": {
+        "en": "141×81, acrylic, oils, canvas",
+        "uk": "141x81, акрил, олія, полотно"
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      },
+      {
+       "image": "830da7_b02afedee0824daf92405295592a978a~mv2.jpg",
+       "title": {
+        "en": "the Helgi and Harti",
+        "uk": "Хельгі і Харті"
+       },
+       "technique": {
+        "en": "112×65, acrylic, oil paint",
+        "uk": "112х65, акрилові, масляні фарби"
+       },
+       "year": "",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "realities",
+      "uk": "реальність"
+     },
+     "paras": [
+      {
+       "en": "The spatial concept of the exhibition has several special realities which embedded in separate open rooms, which together form a common pavilion. The intersection of these territories reflects the complex of incompatible contrasts that humanity endures in the real-time war.",
+       "uk": "Просторова концепція виставки містить кілька особливих реалій, вбудованих в окремі відкриті кімнати, які разом утворюють спільну зону. Перетин цих територій відображає складні й водночас дивовижні контрасти, в яких перебуває суспільство в реальний час війни."
+      }
+     ]
+    },
+    {
+     "kind": "photos",
+     "title": {
+      "en": "the pavilion",
+      "uk": "павільйон"
+     },
+     "photos": [
+      "830da7_c243955fd69f4821b2ea362c885a659d~mv2.jpg",
+      "830da7_3ff75fb7dc794e8586e99bd745b97220~mv2.jpg",
+      "830da7_30367eea7fe34189885154f84fe28a63~mv2.jpeg",
+      "830da7_6f530814e6cc41cf872d166ff61f792f~mv2.jpg",
+      "830da7_abf1f9a6c6a744e3a49b0188f0d47998~mv2.jpeg",
+      "830da7_d9007d407f704bbf9198c6dd7c2853c2~mv2.png",
+      "830da7_447faa74d54140b9ac3c11cabfb90982~mv2.jpg",
+      "830da7_2eaf49cc2dab472aafdfad500ff4936f~mv2.jpg",
+      "830da7_d3e4b2ee4a494f1091abed607ebb76a7~mv2.jpg",
+      "830da7_f28b7a2f65204fd0bd58cc3c8e86907a~mv2.jpg"
+     ]
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "the opening",
+      "uk": "відкриття"
+     },
+     "paras": [
+      {
+       "en": "@@openingSupport",
+       "uk": "@@openingSupport"
+      }
+     ]
+    },
+    {
+     "kind": "photos",
+     "title": {
+      "en": "the opening",
+      "uk": "відкриття"
+     },
+     "photos": [
+      "830da7_3605b51a71ed492f9e58f9c856b42bc3~mv2.jpg",
+      "830da7_252002ce104c4f9ebef51df0fb7e9e9b~mv2.jpg",
+      "830da7_d8a9cb4f75334901b8dccd8f587cd6b0~mv2.jpg",
+      "830da7_77f1df347a39418c812365b7143734d4~mv2.jpg",
+      "830da7_30065946898b478ea48f22661c03f477~mv2.jpg",
+      "830da7_ecbd5930a7c0463cb9f3e9d6d87174b3~mv2.jpg",
+      "830da7_20a605d625ed44dab674535b85504d19~mv2.jpg"
+     ]
+    },
+    {
+     "kind": "text",
+     "title": {
+      "uk": "Перформанс",
+      "en": "Performance"
+     },
+     "paras": [
+      {
+       "en": "collaboration with Daria Stiletskaya \"GENOM_UA\"",
+       "uk": "співпраця з Дарією Стилецькою \"GENOM_UA\""
+      },
+      {
+       "en": "Performance \"Ordinary Heroes\" how ONE artistic appeal by 2 Ukrainian artists to Estonians from the territory bordering on the aggressor country, waging a barbaric War in the central part of Europe. The 15-minute video of the reincarnation of faceless mannequins (heads, ironically in prof. Medium called «chumps») in shaved and colored flags of Estonia and russia - with a common white color in the center - as a symbol of the border between these countries. The art act takes place in the presence of free Hero David Bowie & under his single HEROES in the apocalyptic interior of the dilapidated Soviet archive at the Viinistu Art Museum, where Tilda Zvolinska will open a personal exhibition of the series of war paintings in August 2022. In the final video, Ukrainian artists shave each other's heads and paint the color of the flag of their country. And paint the color of the flag of their country. The flag that become a symbol of worldwide exposure.",
+       "uk": "Перформанс «Ordinary Heroes» як ОДНЕ мистецьке звернення 2-х українських митців до естонців із прикордонної з країною-агресором території, яка веде варварську війну в центральній частині Європи. 15-хвилинне відео перевтілення безликих манекенів (голови іронічно у проф. середні названі «чумпами») на поголених і кольорових прапорах Естонії та Росії — із загальним білим кольором у центрі — як символ кордону між цими країнами. Арт-акт відбувається в присутності вільного Героя Девіда Боуї та його сингла HEROES в апокаліптичному інтер'єрі напівзруйнованого радянського архіву Художнього музею Війністу, де Тільда Зволінська відкриє персональну виставку серії воєнних картин у серпні 2022 року. У фінальному відео укр. художники голять один одному голови і розфарбовують колір прапора своєї країни. Прапор, який став символом всесвітньої експозиції."
+      },
+      {
+       "en": "@@credit",
+       "uk": "@@credit"
+      },
+      {
+       "en": "@@madeWithSupport: international community \"LOBOS\" and Joonas Nickholm",
+       "uk": "@@madeWithSupport: міжнародна спільнота «LOBOS» і Йоонас Нікгольм"
+      }
+     ]
+    },
+    {
+     "kind": "photos",
+     "title": {
+      "en": "",
+      "uk": ""
+     },
+     "photos": [
+      "830da7_a054f8d2bf564913b898e67e07241c24~mv2.jpg",
+      "830da7_cf8ff17e9a2c4b35842a5e7e571687fa~mv2.jpg"
+     ]
+    },
+    {
+     "kind": "photos",
+     "title": {
+      "en": "performance in a paper costume",
+      "uk": "перформанс у паперовому костюмі"
+     },
+     "photos": [
+      "scan-perf-01",
+      "scan-perf-02",
+      "scan-perf-03"
+     ]
+    },
+    {
+     "kind": "links",
+     "title": {
+      "en": "",
+      "uk": ""
+     },
+     "items": [
+      {
+       "label": {
+        "en": "@@watchVideo",
+        "uk": "@@watchVideo"
+       },
+       "url": "https://1drv.ms/v/s!Anym-lu2pvathUhefJ5Y12J7bmIo"
+      },
+      {
+       "label": {
+        "en": "linktr.ee/tildaz",
+        "uk": "linktr.ee/tildaz"
+       },
+       "url": "https://linktr.ee/tildaz"
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "title": {
+      "uk": "Співпраці",
+      "en": "Collaborations"
+     },
+     "paras": [
+      {
+       "en": "The collaboration with Lenovo is a creative experiment where the possibilities of digital tools are used to transform static painting into a dynamic reflection of the meaning of the chakras. Seven abstract images reflecting the elements, created with a characteristic and scrupulous attitude to the uses of mythological attributes, were linked into a media form - the story that evolves human energy into technological achievement.",
+       "uk": "Співпраця з Lenovo — це творчий експеримент, у якому можливості цифрових інструментів використовуються для перетворення статичної картини на динамічне відображення сенсу інноваційного продукту. Сім абстрактних зображень, що відображають елементи, створені з характерним і скрупульозним ставленням до використання міфологічних атрибутів, були пов'язані в медіа-форму – історію, яка перетворює людську енергію на технологічні досягнення."
+      }
+     ]
+    },
+    {
+     "kind": "works",
+     "title": {
+      "en": "",
+      "uk": ""
+     },
+     "works": [
+      {
+       "image": "830da7_3abe937905b74918a989045af447a08c~mv2.jpg",
+       "title": {
+        "en": "",
+        "uk": ""
+       },
+       "technique": {
+        "en": "digital painting",
+        "uk": "цифровий живопис"
+       },
+       "year": "2019",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "sound",
+   "label": {
+    "uk": "Non Verbal Art",
+    "en": "Non Verbal Art"
+   },
+   "subtitle": {
+    "en": "",
+    "uk": ""
+   },
+   "lead": {
+    "uk": "",
+    "en": ""
+   },
+   "cover": "830da7_2e6ba619e5664d53a4d639fb935c38ef~mv2.png",
+   "intro": [
+    {
+     "en": "collaboration with a Ukrainian musician Andriy Kovalevskiy, who works in such genres as experimental electronic music, modern academic music, sound art, and field sound recording, has proceeded on for more than a year. As music and painting evolved - we changed our approaches to the tasks and styles of the projects, that the first project was accompanied by three sound compositions at the same time, and it was my first graphic combined with colour.",
+     "uk": "Колаборація з українським музикантом Андрієм Ковалевським, який працює в таких жанрах, як експериментальна електронна музика, сучасна академічна музика, саунд-арт і польові записи звуку, триває понад рік. Коли музика і живопис розвивалися, ми змінювали підходи до завдань і стилів проєктів: перший проєкт супроводжувався одразу трьома звуковими композиціями, і це була моя перша графіка, поєднана з кольором."
+    },
+    {
+     "en": "Andriy Kovalevskiy",
+     "uk": "Андрій Ковалевський"
+    },
+    {
+     "en": "@@soundNote",
+     "uk": "@@soundNote"
+    }
+   ],
+   "blocks": [
+    {
+     "kind": "works",
+     "title": {
+      "en": "",
+      "uk": ""
+     },
+     "works": [
+      {
+       "image": "830da7_b3a428ef8fc24218be6e64f2832fe866~mv2.jpg",
+       "title": {
+        "en": "the cup missed the hit",
+        "uk": "чашка пропустила удар"
+       },
+       "technique": {
+        "en": "acrylic, oils, whitewashing, watercolor, canvas. 150×100",
+        "uk": "акрил, олія, побілка, акварель, полотно. 150×100"
+       },
+       "year": "2022",
+       "description": {
+        "en": "",
+        "uk": ""
+       }
+      }
+     ]
+    },
+    {
+     "kind": "photos",
+     "title": {
+      "en": "l l art",
+      "uk": "l l art"
+     },
+     "photos": [
+      "830da7_c66d3ffbcd3248ec9d92733860962824~mv2.jpg",
+      "830da7_2e6ba619e5664d53a4d639fb935c38ef~mv2.png",
+      "830da7_466ffd01856943e5b4af5f84295b5297~mv2.jpg",
+      "830da7_dfc440b8159f484c911fd1b0dbd7b4e4~mv2.jpg",
+      "830da7_6ac1354c06ed45849b85a1a4914474d8~mv2.jpg"
+     ]
+    }
+   ]
+  }
+ ],
+ "cv": {
+  "name": {
+   "en": "Mattilda Mariia Zvolinska",
+   "uk": "Матильда Марія Зволінська"
+  },
+  "groups": [
+   {
+    "title": {
+     "en": "expositions",
+     "uk": "експозиції"
+    },
+    "items": [
+     {
+      "year": "2022",
+      "place": {
+       "en": "Bruges, Belgium",
+       "uk": "Брюгге, Бельгія"
+      },
+      "what": {
+       "en": "Participation in the exposition",
+       "uk": "Участь в експозиції"
+      },
+      "detail": {
+       "en": "\"Ukrainian art week\"",
+       "uk": "«Український мистецький тиждень»"
+      }
+     },
+     {
+      "year": "2022",
+      "place": {
+       "en": "Vinistu, Estonia",
+       "uk": "Віністу, Естонія"
+      },
+      "what": {
+       "en": "Exhibition on territory of \"Viinistu Art Museum\"",
+       "uk": "Виставка на території «Художнього музею Війністу»"
+      },
+      "detail": {
+       "en": "\"Is this reality?\"",
+       "uk": "«Це реальність?»"
+      }
+     },
+     {
+      "year": "2020",
+      "place": {
+       "en": "Odesa, Ukraine",
+       "uk": "Одеса, Україна"
+      },
+      "what": {
+       "en": "Exposition of graph",
+       "uk": "Експозиція графіки"
+      },
+      "detail": {
+       "en": "Center of Culture \"Syniy Crab\"",
+       "uk": "Центр культури «Синій краб»"
+      }
+     },
+     {
+      "year": "2023",
+      "place": {
+       "en": "Uzhhorod, Ukraine",
+       "uk": "Ужгород, Україна"
+      },
+      "what": {
+       "en": "Participation in the exposition",
+       "uk": "Участь в експозиції"
+      },
+      "detail": {
+       "en": "\"During the war\"",
+       "uk": "«Під час війни»"
+      }
+     },
+     {
+      "year": "2023",
+      "place": {
+       "en": "Ljubljana, Slovenia",
+       "uk": "Любляна, Словенія"
+      },
+      "what": {
+       "en": "Participation in the sale-exposition",
+       "uk": "Участь у виставці-продажу"
+      },
+      "detail": {
+       "en": "",
+       "uk": ""
+      }
+     }
+    ]
+   },
+   {
+    "title": {
+     "en": "employment history",
+     "uk": "Трудова книжка"
+    },
+    "items": [
+     {
+      "year": "2019",
+      "place": {
+       "en": "Ukraine",
+       "uk": "Україна"
+      },
+      "what": {
+       "en": "Graphic illustrator",
+       "uk": "Графічна ілюстраторка"
+      },
+      "detail": {
+       "en": "Book \"Dealer of Reality\", the writer of the book — Nikolas Dimitrov",
+       "uk": "Книга «Ділер реальності», письменник книги — Ніколас Димитров"
+      }
+     },
+     {
+      "year": "2018",
+      "place": {
+       "en": "Kyiv, Ukraine",
+       "uk": "Київ, Україна"
+      },
+      "what": {
+       "en": "Company \"Lenovo\" — digital painter",
+       "uk": "Компанія «Lenovo» — діджитал-художниця"
+      },
+      "detail": {
+       "en": "presented a new product from the Lenovo company to the journalists",
+       "uk": "презентувала новий продукт компанії Lenovo журналістам"
+      }
+     }
+    ]
+   },
+   {
+    "title": {
+     "en": "education",
+     "uk": "освіта"
+    },
+    "items": [
+     {
+      "year": "2022",
+      "place": {
+       "en": "Estonia, summer",
+       "uk": "Естонія, літо"
+      },
+      "what": {
+       "en": "Art residence \"Loovlinnak\"",
+       "uk": "Арт-резиденція «Loovlinnak»"
+      },
+      "detail": {
+       "en": "",
+       "uk": ""
+      }
+     },
+     {
+      "year": "2019–2022",
+      "place": {
+       "en": "Odesa, Ukraine",
+       "uk": "Одеса, Україна"
+      },
+      "what": {
+       "en": "An Art college",
+       "uk": "Художній коледж"
+      },
+      "detail": {
+       "en": "faculty of sculpture",
+       "uk": "факультет скульптури"
+      }
+     },
+     {
+      "year": "2014–2018",
+      "place": {
+       "en": "Kyiv, Ukraine",
+       "uk": "Київ, Україна"
+      },
+      "what": {
+       "en": "Kyiv children academy of art",
+       "uk": "Київська дитяча академія мистецтв"
+      },
+      "detail": {
+       "en": "faculty of art",
+       "uk": "факультет мистецтв"
+      }
+     }
+    ]
+   },
+   {
+    "title": {
+     "en": "achievement",
+     "uk": "досягнення"
+    },
+    "items": [
+     {
+      "year": "2017",
+      "place": {
+       "en": "Japan",
+       "uk": "Японія"
+      },
+      "what": {
+       "en": "International competition \"Lonchikari\"",
+       "uk": "Міжнародний конкурс «Lonchikari»"
+      },
+      "detail": {
+       "en": "bronze",
+       "uk": "бронза"
+      }
+     },
+     {
+      "year": "2017",
+      "place": {
+       "en": "Ukraine",
+       "uk": "Україна"
+      },
+      "what": {
+       "en": "Paint for the World anti-AIDS fund, AHF",
+       "uk": "Малюнок для світу — фонд боротьби зі СНІДом AHF"
+      },
+      "detail": {
+       "en": "",
+       "uk": ""
+      }
+     },
+     {
+      "year": "2017",
+      "place": {
+       "en": "Ukraine",
+       "uk": "Україна"
+      },
+      "what": {
+       "en": "International competition \"Sribnly dzvin\"",
+       "uk": "Міжнародний конкурс «Срібний дзвін»"
+      },
+      "detail": {
+       "en": "place",
+       "uk": "місце"
+      }
+     },
+     {
+      "year": "2017",
+      "place": {
+       "en": "Ukraine",
+       "uk": "Україна"
+      },
+      "what": {
+       "en": "Competition \"UKRAINE — THE LAND OF TALENTS\"",
+       "uk": "Конкурс «УКРАЇНА — КРАЇНА ТАЛАНТІВ»"
+      },
+      "detail": {
+       "en": "place",
+       "uk": "місце"
+      }
+     },
+     {
+      "year": "2016",
+      "place": {
+       "en": "Ukraine",
+       "uk": "Україна"
+      },
+      "what": {
+       "en": "International competition \"Ukraine–Turkey\"",
+       "uk": "Міжнародний конкурс «Україна–Туреччина»"
+      },
+      "detail": {
+       "en": "place",
+       "uk": "місце"
+      }
+     },
+     {
+      "year": "2016",
+      "place": {
+       "en": "Ukraine",
+       "uk": "Україна"
+      },
+      "what": {
+       "en": "Competition \"Faith Hope Love\"",
+       "uk": "Конкурс «Віра Надія Любов»"
+      },
+      "detail": {
+       "en": "place",
+       "uk": "місце"
+      }
+     }
+    ]
+   }
+  ],
+  "early": [
+   {
+    "image": "early-clousers",
+    "title": {
+     "uk": "Афіша «Clousers»",
+     "en": "'Clousers' poster"
+    },
+    "technique": {
+     "uk": "туш, перо",
+     "en": "ink, pen"
+    },
+    "year": "2014",
+    "description": {
+     "uk": "Концертний плакат: гітарист у сомбреро та гітра-персонаж.",
+     "en": "Concert poster: a guitarist in a sombrero and a guitar-character."
+    }
+   },
+   {
+    "image": "early-artishok",
+    "title": {
+     "uk": "Артишок",
+     "en": "Artichoke"
+    },
+    "technique": {
+     "uk": "кольорові олівці",
+     "en": "colored pencils"
+    },
+    "year": "2014",
+    "description": {
+     "uk": "Суцвіття артишока як казкова істота — з очима та ніжками.",
+     "en": "An artichoke blossom as a fairy-tale creature, with eyes and little legs."
+    }
+   },
+   {
+    "image": "early-sister",
+    "title": {
+     "uk": "Сестра",
+     "en": "Sister"
+    },
+    "technique": {
+     "uk": "графіка, ручка",
+     "en": "graphics, pen"
+    },
+    "year": "2014",
+    "description": {
+     "uk": "Портрет дівчини в окулярах і навушниках, з написами та мініатюрами.",
+     "en": "A portrait of a girl with glasses and headphones, with inscriptions and miniatures."
+    }
+   },
+   {
+    "image": "early-defender-1",
+    "title": {
+     "uk": "Великі справи маленького захисника",
+     "en": "Big deeds of the little defender"
+    },
+    "technique": {
+     "uk": "туш, ручка",
+     "en": "ink, pen"
+    },
+    "year": "2015",
+    "description": {
+     "uk": "Фантастична багатофігурна композиція: малий захисник у центрі серед великих персонажів.",
+     "en": "A fantastic multi-figure composition: the little defender in the center among large characters."
+    }
+   },
+   {
+    "image": "early-defender-2",
+    "title": {
+     "uk": "Великі справи маленького захисника (варіант 2)",
+     "en": "Big deeds of the little defender (version 2)"
+    },
+    "technique": {
+     "uk": "туш, ручка",
+     "en": "ink, pen"
+    },
+    "year": "2015",
+    "description": {
+     "uk": "Фігурка з мечем на мосту-нитці; велет із компасом, жінки з тваринами та дракон.",
+     "en": "A small figure with a sword on a thread-bridge; a giant with a compass, women with animals and a dragon."
+    }
+   },
+   {
+    "image": "early-masha",
+    "title": {
+     "uk": "Маша",
+     "en": "Masha"
+    },
+    "technique": {
+     "uk": "туш, перо",
+     "en": "ink, pen"
+    },
+    "year": "",
+    "description": {
+     "uk": "Дівчина з коромислом і посудом, собака та кішка — стилістика середньовічної гравюри.",
+     "en": "A girl with a yoke and dishes, a dog and a cat — in the style of a medieval engraving."
+    }
+   },
+   {
+    "image": "early-lady",
+    "title": {
+     "uk": "Портрет дами",
+     "en": "Portrait of a lady"
+    },
+    "technique": {
+     "uk": "змішана техніка",
+     "en": "mixed media"
+    },
+    "year": "2016",
+    "description": {
+     "uk": "Жінка в хустці з запаленою цигаркою, ескізний фон.",
+     "en": "A woman in a headscarf with a lit cigarette, sketchy background."
+    }
+   },
+   {
+    "image": "early-ua-tr",
+    "title": {
+     "uk": "Україна — Туреччина: дружба",
+     "en": "Ukraine–Türkiye friendship"
+    },
+    "technique": {
+     "uk": "туш, перо",
+     "en": "ink, pen"
+    },
+    "year": "2016",
+    "description": {
+     "uk": "Дівчина у вінку та чоловік у турецькому уборі в човні; гора з маяком, голуби, сонце з місяцем.",
+     "en": "A girl in a wreath and a man in Turkish headwear in a boat; a mountain with a lighthouse, doves, sun and moon."
+    }
+   }
+  ]
+ },
+ "contacts": {
+  "city": {
+   "en": "Kyiv, Ukraine",
+   "uk": "Київ, Україна"
+  },
+  "email": "mary.zvolinskaya@gmail.com",
+  "instagram": "@ttilda_-_obako",
+  "instagramUrl": "https://www.instagram.com/ttilda_-_obako/"
+ }
+}
