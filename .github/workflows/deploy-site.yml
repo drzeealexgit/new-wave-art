@@ -1,0 +1,83 @@
+name: Build site from Drive zip + Kyiv 2025 scans
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/deploy-site.yml'
+      - 'data/site-data.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      EXPECTED_SHA256: ''
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+      - name: Download zip from Google Drive
+        run: |
+          curl -fL "https://drive.usercontent.google.com/download?id=1fhnyAj9ODrdmQVYmoBoGpyMmZUTJG6Pa&export=download&confirm=t" -o repo.zip
+          SIZE=$(stat -c%s repo.zip)
+          if [ "$SIZE" -ne 58383119 ]; then
+            echo "::error::Size mismatch: got $SIZE bytes, expected 58383119"
+            exit 1
+          fi
+          echo "sha256 of deployed zip: $(sha256sum repo.zip | cut -d' ' -f1)"
+          EXPECTED="${EXPECTED_SHA256:-}"
+          if [ -n "$EXPECTED" ]; then
+            ACTUAL=$(sha256sum repo.zip | cut -d' ' -f1)
+            if [ "$ACTUAL" != "$EXPECTED" ]; then
+              echo "::error::Checksum mismatch: got $ACTUAL, expected $EXPECTED"
+              exit 1
+            fi
+          fi
+      - name: Unpack
+        run: |
+          unzip -q repo.zip -d site
+          if [ "$(ls -A site | wc -l)" -eq 1 ] && [ -d site/*/ ]; then
+            inner=$(ls -A site)
+            mv "site/$inner"/* site/ 2>/dev/null || true
+            mv "site/$inner"/.[!.]* site/ 2>/dev/null || true
+            rmdir "site/$inner" || true
+          fi
+      - name: Kyiv 2025 scans (PDF from Drive) to JPG gallery
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+          mkdir -p site/assets/images/kyiv2025
+          ids=(
+            "1CxCn6xPx69F0egypgRI-VHjzNZCyqEdo"
+            "1ZF-DGwPDIH-hdMfEre3BhWKebb6Lj65d"
+            "1snwxl9ciGgilWrJRIEy2rcWmGWtr9m3t"
+            "1FDJmc1iw79nnnQXk4ckE9Z0DZyujKP6H"
+            "1bcP5vEvSQcDm2tDGCrd3BCwuEyZEL_lj"
+            "1cQvZ0yAmX1ouTRL77JPFrCDwKTmec2KU"
+            "1unSfDp14wwq2Kl9PX0BZmAGFaX_PUZD8"
+          )
+          i=1
+          for id in "${ids[@]}"; do
+            curl -fL "https://drive.usercontent.google.com/download?id=${id}&export=download&confirm=t" -o scan.pdf
+            pdftoppm -jpeg -jpegopt quality=88 -r 150 -singlefile scan.pdf "site/assets/images/kyiv2025/kyiv2025-$(printf '%02d' $i)"
+            i=$((i+1))
+          done
+          test "$(ls site/assets/images/kyiv2025/*.jpg | wc -l)" -eq 7
+      - name: Overlay site data from main (when updated there)
+        run: |
+          if [ -f data/site-data.json ]; then
+            cp data/site-data.json site/data/site-data.json
+            echo "site-data.json taken from main"
+          else
+            echo "site-data.json from the original zip (no overlay in main yet)"
+          fi
+      - name: Publish to site-build branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan site-build
+          git rm -rf --quiet . || true
+          cp -r site/. .
+          rm -rf site repo.zip
+          git add -A
+          git commit -m "site build from github-repo.zip + Kyiv 2025 scans $(date -u +%F)"
+          git push origin site-build --force
