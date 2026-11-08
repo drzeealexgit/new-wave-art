@@ -70,6 +70,31 @@ jobs:
           else
             echo "site-data.json from the original zip (no overlay in main yet)"
           fi
+      - name: Patch index.html (sync __SEED__ with site-data.json, inject Kyiv 2025 assets)
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          data = json.load(open('site/data-site-data.json', encoding='utf-8')) if False else json.load(open('site/data/site-data.json', encoding='utf-8'))
+          html = open('site/index.html', encoding='utf-8').read()
+          seed = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
+          inject = ','.join('"kyiv2025-%02d.jpg":"assets/images/kyiv2025/kyiv2025-%02d.jpg"' % (n, n) for n in range(1, 8))
+          lines = html.split('\n')
+          out = []
+          seed_done = assets_done = False
+          for ln in lines:
+              if ln.startswith('window.__SEED__='):
+                  out.append('window.__SEED__=' + seed + ';')
+                  seed_done = True
+              elif ln.startswith('window.__ASSETS__={'):
+                  out.append(ln.replace('window.__ASSETS__={', 'window.__ASSETS__={' + inject + ',', 1))
+                  assets_done = True
+              else:
+                  out.append(ln)
+          if not (seed_done and assets_done):
+              sys.exit('PATCH FAILED seed=%s assets=%s' % (seed_done, assets_done))
+          open('site/index.html', 'w', encoding='utf-8').write('\n'.join(out))
+          print('patched: __SEED__ synced (%d bytes), 7 kyiv2025 assets injected' % len(seed))
+          PY
       - name: Publish to site-build branch
         run: |
           git config user.name "github-actions[bot]"
