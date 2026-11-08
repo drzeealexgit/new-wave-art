@@ -1,0 +1,6 @@
+{
+  "name": "Mattilda Mariia Zvolinska — Art Portfolio",
+  "description": "Bilingual art portfolio of Ukrainian artist, painter, graphic artist, and sculptor Mattilda (Mariia) Zvolinska.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
